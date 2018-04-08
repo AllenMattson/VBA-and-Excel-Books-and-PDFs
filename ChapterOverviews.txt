@@ -1,0 +1,675 @@
+ReadMe.txt | Disable "word wrap" to view properly.
+
+========================================================================
+EXCEL 2010 POWER PROGRAMMING WITH VBA
+------------------------------------------------------------------------
+
+This readme provides information on the following topics:
+
+* System Requirements
+
+* Using the CD
+
+* Files and software on the CD
+
+* Troubleshooting
+
+========================================================================
+System Requirements
+------------------------------------------------------------------------
+
+Make sure that your computer meets the minimum system requirements
+listed in this section. If your computer doesn't match up to most of
+these requirements, you may have a problem using the contents of the CD.
+
+* A Windows PC with Microsoft Excel 2010.
+
+* A CD-ROM drive.
+
+========================================================================
+Using the CD
+------------------------------------------------------------------------
+
+To install the items from the CD to your hard drive, follow these steps:
+
+1. Insert the CD into your computer's CD-ROM drive.
+
+<<Note>> The interface won't launch if you have autorun
+disabled. In that case, click Start-->Run. In the dialog box
+that appears, type D:\start.exe. (Replace D with the proper
+letter if your CD drive uses a different letter. If you don't
+know the letter, see how your CD drive is listed under My
+Computer.) Click OK.
+
+2. The CD-ROM interface will appear.  The interface provides a
+simple point-and-click way to explore the contents of the CD.
+
+========================================================================
+Files and Software on the CD
+------------------------------------------------------------------------
+
+The following sections provide more details about the software and other 
+materials available on the CD.
+
+Applications
+
+Adobe Reader is a freeware application for viewing files in the Adobe 
+Portable Document format.
+
+Shareware programs are fully functional, trial versions of copyrighted 
+programs. If you like particular programs, register with their authors 
+for a nominal fee and receive licenses, enhanced versions, and 
+technical support.
+
+Freeware programs are copyrighted games, applications, and utilities 
+that are free for personal use. Unlike shareware, these programs do not 
+require a fee or provide technical support. 
+
+GNU software is governed by its own license, which is included inside 
+the folder of the GNU product. See the GNU license for more details. 
+
+Trial, demo, or evaluation versions are usually limited either by time 
+or functionality (such as being unable to save projects). Some trial 
+versions are very sensitive to system date changes. If you alter your 
+computer's date, the programs will "time out" and no longer be 
+functional.
+
+eBook version of Excel 2010 Power Programming with VBA
+The complete text of the book you hold in your hands is provided on the 
+CD in Adobe's Portable Document Format (PDF). You can read and quickly 
+search the content of this PDF file by using Adobe's Acrobat Reader, 
+also included on the CD. Or, you can load the file onto an ebook reader,
+such as Kindle.
+
+Sample files for Excel 2010 Power Programming with VBA
+The CD contains more than 300 files used as examples in the book. The 
+files are organized by chapter. With a few exceptions, the files are 
+all Excel 2010 files that have one of the following extensions:
+
+	* .xlsx: An Excel workbook file.
+	* .xlsm: An Excel workbook file that contains VBA macros.
+	* .xlam: An Excel add-in file that contains VBA macros.
+
+When you open an XLSM file, Excel may display a security warning that 
+tells you that macros have been disabled. To enable macros, click the 
+Options button in the security warning panel and then select Enable 
+This Content.
+
+Because the files on this CD are from a trusted source, you may want 
+to copy the files to your hard drive and then designate the folder as 
+a trusted location. To do so, follow these steps:
+1. Open an Explorer window and double-click the CD-ROM drive that 
+   contains the companion CD-ROM.
+2. Right-click the folder that corresponds to the root folder for the 
+   sample files and choose Copy from the shortcut menu.
+3. Activate the folder on your hard drive where you'd like to copy the 
+   files, right-click the directory, and choose Paste from the shortcut 
+   menu.
+   
+   The CD-ROM files will be copied to a subfolder in the folder you 
+   specified in Step 3.
+
+To designate this new folder as a trusted location:
+1. Start Excel and choose File-->Options to display the Excel Options 
+   dialog box.
+2. In the Excel Options dialog box, click the Trust Center tab.
+3. Click the Trust Center Settings button.
+4. In the Trust Center dialog box, click the Trusted Locations tab.
+5. Click the Add New Location button to display the Microsoft Office 
+   Trusted Location dialog box.
+6. In the Microsoft Office Trusted Location dialog box, click the 
+   Browse button and locate the folder that contains the files copied 
+   from the CD-ROM.
+7. Make sure you select the option labeled Subfolders of This Location 
+   Are Also Trusted.
+
+After performing these steps, when you open XLSM files from this 
+location, the macros are enabled and you don't see the security warning.
+
+Following is a list of the sample files, along with a brief description. 
+Examples that use multiple files are contained in a separate 
+subdirectory.
+
+<Note>
+Some chapters don't use any sample files.
+
+Chapter 3
+	* array formula examples.xlsx: A workbook that contains various 
+	  examples of array formulas.
+	* counting and summing examples.xlsx: A workbook that contains 
+	  examples of counting and summing formulas.
+	* megaformula.xlsm: A workbook that demonstrates intermediate 
+	  formulas, a megaformula, and a VBA function.
+	* named formulas.xlsx: A workbook that contains several examples 
+	  of named formulas.
+	* yearly calendar.xlsx: A workbook that contains a yearly 
+	  calendar, generated using array formulas.
+Chapter 4
+	* sample.xlsm: A sample file used to demonstrate the file 
+	  structure of an Excel workbook.
+Chapter 6
+	* worksheet controls.xlsx: A workbook that demonstrates the use 
+	  of ActiveX controls on a worksheet (with no macros).
+Chapter 7
+	* comment object.xlsm: A workbook that demonstrates some ways 
+	  to manipulate Comment objects using VBA.
+Chapter 8
+	* timing test.xlsm: A workbook that demonstrates the speed 
+	  advantage of declaring variables as a specific data type.
+Chapter 9
+	* sheet sorter.xlsm: A macro that sorts worksheets in 
+	  a workbook.
+Chapter 10
+	* array argument.xlsm: A workbook that contains an example of a 
+	  function that uses an array argument.
+	* commission functions.xlsm: A workbook that contains an example 
+	  of a function that uses an argument.
+	* draw.xlsm: A workbook that contains a function that selects a 
+	  cell randomly.
+	* extended date functions.xlsm: A workbook that demonstrates 
+	  functions to work with pre-1900 dates.
+	* extended date functions help.docx: A Word document that 
+	  describes the extended data functions.
+	* key press.xlsm: A workbook that uses an API function to 
+	  determine if the Ctrl, Shift, or Alt key is pressed.
+	* month names.xlsm: A workbook that demonstrates returning an 
+	  array from a function.
+	* mysum function.xlsm: A workbook that contains a function that 
+	  simulates Excel's SUM function.
+	* no argument.xlsm: A workbook that contains functions that 
+	  don't use an argument.
+	* remove vowels.xlsm: A workbook that contains a function that 
+	  removes the vowels from its argument.
+	* upper case.xlsm: A workbook that contains a function that 
+	  converts text to uppercase.
+	* win32api.txt: A text file that contains Windows API 
+	  declarations and constants.
+	* windows directory.xlsm: A workbook that uses an API function 
+	  to determine the Windows directory.
+Chapter 11
+	* about range selection.xlsm: A workbook that contains a macro 
+	  that describes the current range selection.
+	* \batch processing: A directory that contains files used by 
+	  the batch processing example.
+	* celltype function.xlsm: A workbook that contains a function 
+	  that describes the data type of its single-cell argument.
+	* copy multiple selection.xlsm: A workbook that contains a macro 
+	  that copies a noncontiguous range selection.
+	* date and time.xlsm: A workbook that contains a macro that 
+	  displays the current date and time.
+	* delete empty rows.xlsm: A workbook that contains a macro that 
+	  deletes all empty rows in a workbook.
+	* drive information.xlsm: A workbook that uses API functions to 
+	  list information about all disk drives.
+	* duplicate rows.xlsm: A workbook that contains a macro that 
+	  duplicates rows, based on the contents of a cell.
+	* efficient looping.xlsm: A workbook that demonstrates an 
+	  efficient way to loop through a range.
+	* file association.xlsm: A workbook that contains an API 
+	  function that returns the application associated with a 
+	  particular file.
+	* hide rows and columns.xlsm: A workbook that contains a macro 
+	  that hides all rows and columns that are outside of the 
+	  current range selection.
+	* inputbox demo.xlsm: A workbook that contains a macro that 
+	  demonstrates how to prompt for a value.
+	* inrange function.xlsm: A workbook that contains a function 
+	  that determines whether a range is contained in another range.
+	* list fonts.xlsm: A workbook that contains a macro that lists 
+	  all installed fonts.
+	* loop vs array fill range.xlsm: A workbook that contains macros 
+	  that demonstrate ways to fill a range of cells.
+	* next empty cell.xlsm: A workbook that contains a macro that 
+	  determines the next empty cell in a column.
+	* page count.xlsm: A workbook that contains a macro that counts 
+	  the number of printed pages in a workbook.
+	* printer info.xlsm: A workbook that contains an API function 
+	  that returns information about the active printer.
+	* prompt for a range.xlsm: A workbook that contains a macro that 
+	  demonstrates how to prompt for a user-selected range.
+	* range selections.xlsm: A workbook that contains macros that 
+	  perform various types of range selections.
+	* select by value.xlsm: A workbook that contains a macro that 
+	  demonstrates how to select cells based on their values.
+	* sorting demo.xlsm: A workbook that contains macros that 
+	  demonstrate four ways to sort an array.
+	* \sound.xlsm: A directory that contains files to demonstrate 
+	  generating sound in Excel.
+	* synchronize sheets.xlsm: A workbook that contains a macro that 
+	  synchronizes worksheets.
+	* \value from closed workbook: A directory that includes files 
+	  to demonstrate how to use a function to retrieve a value from 
+	  a closed workbook.
+	* variant transfer.xlsm: A workbook that contains a macro that 
+	  transfers a range to a variant array.
+	* vba utility functions.xlsm: A workbook that contains several 
+	  useful functions for use in your VBA code.
+	* video mode.xlsm: A workbook that contains an API function that 
+	  determines the current video mode.
+	* windows registry.xlsm: A workbook that contains macros that 
+	  read from and write to the Windows Registry.
+	* worksheet functions.xlsm: A workbook that contains some useful 
+	  worksheet functions created using VBA.
+Chapter 12
+	* data form example.xlsm: A workbook that contains a macro that 
+	  displays Excel's built-in data form.
+	* get directory.xlsm: A workbook that contains macros that 
+	  demonstrate two ways to prompt a user for a directory.
+	* inputbox method.xlsm: A workbook that contains macros that 
+	  demonstrate the use of Excel's InputBox method.
+	* prompt for file.xlsm: A workbook that demonstrates how to 
+	  prompt for one or more file names.
+	* ribbon control names.xlsx: A workbook that lists all of the 
+	  Excel 2007 and Excel 2010 Ribbon control names.
+	* VBA inputbox.xlsm: A workbook that contains macros that 
+	  demonstrate the use of the VBA InputBox function.
+Chapter 13
+	* activex worksheet controls.xlsx: A workbook that demonstrates 
+	  the use of ActiveX controls on a worksheet (with no macros).
+	* all userform controls.xlsm: A workbook that contains a 
+	  UserForm that uses all available controls.
+	* get name and sex.xlsm: A workbook that contains a simple 
+	  UserForm example.
+	* newcontrols.pag: A file that contains customized controls that 
+	  can be imported into your UserForm Toolbox as a new page.
+	* spinbutton and textbox.xlsm: A workbook that demonstrates the 
+	  use of a paired SpinButton control and TextBox control in a 
+	  UserForm.
+	* spinbutton events.xlsm: A workbook that demonstrates SpinButton 
+	  events.
+	* userform events.xlsm: A workbook that demonstrates UserForm 
+	  events.
+Chapter 14
+	* change userform size.xlsm: A workbook that demonstrates how to 
+	  use VBA to change the size of a UserForm.
+	* date and time picker.xlsm: A workbook that demonstrates the 
+	  use of the Date and Time Picker control.
+	* listbox activate sheet.xlsm: A workbook that demonstrates how 
+	  to allow a user to select a sheet by using a ListBox control.
+	* listbox fill.xlsm: A workbook that demonstrates how to fill a 
+	  ListBox control in a UserForm.
+	* listbox item transfer.xlsm: A workbook that demonstrates how to 
+	  transfer items between two ListBox controls.
+	* listbox move items.xlsm: A workbook that demonstrates how to 
+	  allow the user to change the order of items in a ListBox 
+	  control.
+	* listbox multicolumn1.xlsm: A workbook that demonstrates a 
+	  range-based multicolumn ListBox control.
+	* listbox multicolumn2.xlsm: A workbook that demonstrates an 
+	  array-based multicolumn ListBox control.
+	* listbox multiple lists.xlsm: A workbook that demonstrates how 
+	  to display multiple lists in a single ListBox control.
+	* listbox select rows.xlsm: A workbook that demonstrates how to 
+	  allow a user to select worksheet rows by using a ListBox 
+	  control.
+	* listbox selected items.xlsm: A workbook that demonstrates how 
+	  to identify the selected item(s) in a ListBox.
+	* listbox unique items1.xlsm: A workbook that demonstrates how 
+	  to fill a ListBox control with unduplicated items.
+	* listbox unique items2.xlsm: A variation of the 
+	  listbox unique items1.xlsm example that also sorts the items.
+	* \mediaplayer: A folder that contains mediaplayer.xlsm (a 
+	  workbook that demonstrates the Media Player control), plus 
+	  several MP3 audio files.
+	* multipage control demo.xlsm: A workbook that demonstrates the 
+	  MultiPage control in a UserForm.
+	* queryclose demo.xlsm: A workbook that demonstrates how to 
+	  prevent a user from closing a UserForm by clicking its Close 
+	  button in the title bar.
+	* random number generator.xlsm: A workbook that demonstrates how
+	  to program simple animation in a UserForm.
+	* range selection demo.xlsm: A workbook that demonstrates the 
+	  RefEdit control in a UserForm.
+	* resizable userform api.xlsm: A workbook that demonstrates how 
+	  to use a Windows API function to allow the user to change the 
+	  size of a UserForm.
+	* splash screen.xlsm: A workbook that demonstrates how to use a 
+	  UserForm as a splash screen that displays when a workbook is 
+	  opened.
+	* userform menus.xlsm: A workbook that demonstrates how to use a 
+	  UserForm to display a menu of macros.
+	* zoom and scroll sheet.xlsm: A workbook that demonstrates how 
+	  to zoom and scroll a worksheet while a UserForm is displayed.
+	* zoom userform.xlsm: A workbook that demonstrates how to allow 
+	  the user to change the size of a UserForm.
+Chapter 15
+	* chart in userform.xlsm: A workbook that demonstrates how to 
+	  display a chart in a UserForm.
+	* \dataform: This directory contains the Enhanced Data Form 
+	  add-in created by the author.
+	* excel-lightbox.xlsm: A workbook that demonstrates how to 
+	  darken the Excel window while a UserForm is displayed.
+	* getacolor function.xlsm: A workbook that contains a function 
+	  that allows the user to select a color by using controls on a 
+	  UserForm.
+	* modeless userform1.xlsm: A workbook that demonstrates how to 
+	  display a modeless UserForm to display information about the 
+	  active cell.
+	* modeless userform2.xlsm: A more sophisticated version of 
+	  modeless userform1.xlsm.
+	* move controls.xlsm: A workbook that demonstrates how to allow 
+	  the user to move controls on a UserForm.
+	* msgbox emulation.xlsm: A workbook that contains macros that 
+	  simulate the VBA MsgBox function.
+	* multiple buttons.xlsm: A workbook that demonstrates how to use 
+	  a class module to allow a single procedure to handle events 
+	  for multiple controls on a UserForm.
+	* no title bar.xlsm: A workbook that uses API functions to 
+	  display a UserForm without a title bar.
+	* progress indicator1.xlsm: A workbook that displays a progress 
+	  indicator in a UserForm.
+	* progress indicator2.xlsm: A workbook that uses a MultiPage 
+	  control to display a progress indicator in a UserForm.
+	* progress indicator3.xlsm: A workbook that displays a progress 
+	  indicator in a UserForm by changing the size of the UserForm.
+	* resizable userform.xlsm: A workbook that demonstrates a 
+	  UserForm that's resizable by the user.
+	* semitransparent userform.xlsm: A workbook that demonstrates 
+	  how to display a semitransparent UserForm.
+	* simulated toolbar.xlsm: A workbook that uses a UserForm to 
+	  simulate a toolbar.
+	* sliding tile puzzle.xlsm: A workbook that contains a UserForm 
+	  with a sliding tile puzzle.
+	* splash screen2.xlsm: The splash screen.xlsm example from 
+	  Chapter 14, with a UserForm that doesn't have a title bar.
+	* video poker.xlsm: A workbook that displays a video poker game 
+	  in a UserForm.
+	* wizard demo.xlsm: A workbook that uses a MultiPage control to 
+	  display a simple wizard UserForm.
+Chapter 16
+	* simple undo demo.xlsm: A workbook that demonstrates a method 
+	  to undo the effects of a VBA macro.
+	* text tools.xlam: An add-in that adds text manipulation 
+	  features to Excel.
+	* text tools.chm: The help file for text tools.xlam.
+	* \text tools help source: The source files used to create the 
+	  texttools.chm help file.
+Chapter 17
+	* budget pivot table.xlsm: A workbook that contains data 
+	  suitable for a pivot table.
+	* normalized data.xlsx: A workbook that shows the difference 
+	  between normalized data and summarized data.
+	* reverse pivot table.xlsm: A workbook that contains a macro 
+	  that converts a summary table into a 3-column data table.
+	* simple pivot table.xlsm: A workbook that contains data 
+	  suitable for a pivot table.
+	* survey data pivot tables.xlsm: A workbook that contains a 
+	  macro to generate 28 pivot tables from a range of data.
+Chapter 18
+	* animated charts.xlsm: A workbook that demonstrates how to use 
+	  VBA to animate charts.
+	* chart active cell.xlsm: A workbook that contains a macro that 
+	  displays a chart that uses data based on the active cell 
+	  position.
+	* chart image map.xlsm: A workbook that uses chart events to 
+	  create a simple clickable image map.
+	* chart in userform.xlsm: A workbook that displays a chart in a 
+	  UserForm, using the data based on the active cell position.
+	* climate data.xlsx: An interactive chart application that uses 
+	  no macros.
+	* data labels.xlsm: A workbook that contains a macro that 
+	  applies chart data labels that are stored in a range.
+	* events - chart sheet.xlsm: A workbook that demonstrates events 
+	  for a chart on a chart sheet.
+	* events - embedded chart.xlsm: A workbook that demonstrates 
+	  events for an embedded chart.
+	* export all graphics.xlsm: A workbook that contains a macro 
+	  that exports all graphic objects in a workbook.
+	* format all charts.xlsm: A workbook that contains a macro that 
+	  changes the formatting of all charts on a worksheet.
+	* get series ranges.xlsm: A workbook that contains functions 
+	  that identify the ranges used in a chart.
+	* hide and unhide series.xlsm: A workbook that contains check 
+	  boxes that allow a user to indicate which chart series to 
+	  display.
+	* hypocycloid - animated.xlsm: A workbook that includes macros 
+	  to display an animated hypocycloid chart.
+	* mouseover event - chart sheet.xlsm: A workbook that 
+	  demonstrates the MouseOver event for a chart sheet.
+	* mouseover event - embedded.xlsm: A workbook that demonstrates 
+	  the MouseOver event for an embedded chart.
+	* scrolling chart.xlsm: A workbook that demonstrates how to 
+	  create an animated scrolling chart.
+	* size and align charts.xlsm: A workbook that contains a macro 
+	  that sizes and aligns all charts on a worksheet.
+	* sparkline report.xlsm: A workbook that generates a report that 
+	  describes Sparkline graphics on a worksheet.
+	* unlinked chart.xlsm: A workbook that contains macros that 
+	  demonstrate two ways to unlink a chart from its source data.
+	* vba clock chart.xlsm: A workbook that displays a chart that 
+	  resembles an analog clock.
+Chapter 19
+	* application event tracker.xlsm: A workbook that demonstrates 
+	  how to monitor application-level events.
+	* hide columns before printing.xlsm: A workbook that uses an 
+	  event both to hide columns before printing and to unhide the 
+	  columns after printing.
+	* log workbook open.xlsm: A workbook that demonstrates how to 
+	  keep track of every workbook that is opened by using a class 
+	  module.
+	* make formulas bold.xlsm: A workbook that demonstrates the 
+	  Worksheet Change event.
+	* no shortcut menus.xlsm: A workbook that uses the Workbook_Open 
+	  event to disable shortcut keys and the Workbook_BeforeClose 
+	  event to re-enable shortcut keys.
+	* onkey event demo.xlsm: A workbook that demonstrates the OnKey 
+	  event.
+	* ontime event demo.xlsm: A workbook that demonstrates the 
+	  OnTime event.
+	* shade active row and column.xlsm: A workbook that uses the 
+	  Worksheet SelectionChange event to apply shading to the row and
+	  column of the active cell.
+	* validate entry1.xlsm: A workbook that demonstrates how to 
+	  validate data entered into a cell by using VBA (uses the 
+	  EnableEvents property).
+	* validate entry2.xlsm: A workbook that demonstrates how to 
+	  validate data entered into a cell by using VBA (uses a static 
+	  variable).
+	* validate entry3.xlsm: A workbook that demonstrates how to 
+	  validate data by using Excel's data validation feature - and 
+	  ensuring that the data validation conditions do not get erased.
+	* workbook_beforeclose workaround.xlsm: A workbook that 
+	  demonstrates how to overcome a problem with the Workbook 
+	  BeforeClose event.
+Chapter 20
+	* \automate excel: A directory that contains a Word document 
+	  with macros that automate Excel.
+	* control panel dialogs.xlsm: A workbook that contains macros 
+	  that display Windows Control Panel dialog boxes.
+	* make memos.xlsm: A workbook that automates Word and creates 
+	  a customized memo.
+	* personalized email - outlook.xlsm: A workbook that contains a
+	  macro to send personalized e-mail via Outlook (using early 
+	  binding).
+	* personalized email - outlook (late binding).xlsm: A workbook 
+	  that contains a macro to send personalized e-mail via Outlook 
+	  (using late binding).
+	* personalized email - sendkeys.xlsm: A workbook that contains a 
+	  macro to send personalized e-mail via Windows Mail.
+	* send pdf via outlook.xlsm: A workbook that contains a macro 
+	  that sends e-mail with a PDF file attachment using Outlook.
+	* \shellexecute: A folder that contains a workbook that 
+	  demonstrates the ShellExecute API function 
+	  (shellexecute examples.xlsm), plus a few ancillary files.
+	* start calculator.xlsm: A workbook that contains a macro that 
+	  launches the Calculator application.
+Chapter 21
+	* check addin.xlam: A workbook that contains code to ensure that 
+	  an add-in is installed properly.
+	* export charts.xlsm: The Export Charts Utility workbook, which 
+	  can be converted to an add-in.
+	* export charts.chm: The help file for the export charts.xlsm 
+	  workbook.
+	* \export charts help source: A directory that contains the 
+	  source files that were used to create the export charts.chm 
+	  help file.
+	* list add-in information.xlsm: A workbook that contains a macro 
+	  that lists information about all add-ins.
+Chapter 22
+	* dynamicmenu.xlsm: A workbook that demonstrates the dynamicMenu 
+	  control.
+	* mso image browser.xlsm: A workbook that contains a macro that 
+	  displays the images associated with Ribbon commands.
+	* old-style toolbar.xlsm: A workbook that demonstrates how to 
+	  create a toolbar, used in previous versions of Excel.
+	* page break display.xlsm: The workbook file used to create the 
+	  page break display add-in.xlam add-in.
+	* page break display add-in.xlam: An add-in that adds a useful 
+	  control to Excel's Ribbon.
+	* ribbon control names.xlsx: A workbook that contains the names 
+	  of all Excel 2007 and 2010 Ribbon controls.
+	* ribbon controls demo.xlsm: A workbook that demonstrates 
+	  several types of Ribbon controls.
+	* ribbon modification.xlsm: A workbook that contains a simple 
+	  example that modifies Excel's Ribbon.
+Chapter 23
+	* add to cell shortcut.xlsm: A workbook that contains a macro 
+	  that adds a new menu item to a shortcut menu.
+	* context-sensitive shortcut menu.xlsm: A workbook that contains 
+	  a macro that creates a new shortcut menu that's 
+	  context-sensitive.
+	* make xl 2003 menus.xlsm: A workbook that contains a macro that 
+	  adds a toolbar that mimics the Excel 2003 menu.
+	* shortcut with submenu.xlsm: A workbook that contains a macro 
+	  that adds new menu and submenu items to a shortcut menu.
+	* show faceids.xlsm: A workbook that contains a macro that 
+	  displays FaceId images.
+	* show shortcut menu items.xlsm: A workbook that contains a macro 
+	  that lists all menu items on all shortcut menus.
+	* show shortcut menu names.xlsm: A workbook that contains a macro 
+	  that lists the names of all shortcut menus.
+Chapter 24
+	* \cell comments: A directory that contains a workbook that 
+	  demonstrates using cell comments to display help information.
+	* \function help: A workbook that demonstrates how to display 
+	  help for custom VBA worksheet functions.
+	* \html help: A directory that contains files that demonstrate 
+	  using compiled HTML help.
+	* \mhtml file: A directory that contains files that demonstrate 
+	  using an MHTML file to display help information in Internet 
+	  Explorer.
+	* \textbox: A directory that contains a workbook that 
+	  demonstrates using a text box to display help information.
+	* \userform1: A directory that contains a workbook that 
+	  demonstrates using a UserForm with a SpinButton control to 
+	  display help information.
+	* \userform2: A directory that contains a workbook that 
+	  demonstrates using a UserForm with a scrolling Label control 
+	  to display help information.
+	* \userform3: A directory that contains a workbook that 
+	  demonstrates using a UserForm with a ComboBox control to 
+	  display help information.
+	* \web browser: A directory that contains files that demonstrate 
+	  using a UserForm to display help information.
+	* \worksheet: A directory that contains a file that demonstrates 
+	  using a worksheet to display help information.
+Chapter 25
+	* loan amortization wizard.xlam: An add-in used for the loan 
+	  amortization wizard example.
+Chapter 26
+	* multilingual wizard.xlsm: A workbook used for the multilingual 
+	  wizard example.
+Chapter 27
+	* create file list.xlsm: A workbook that contains a macro that 
+	  creates a list of files contained in a directory.
+	* excel usage log.xlsm: A workbook that contains macros to
+	  maintain a log of when Excel is opened and closed.
+	* export and import csv.xlsm: A workbook that contains macros 
+	  that export and import a CSV file.
+	* export to HTML.xlsm: A workbook that contains a macro that 
+	  exports worksheet data to an HTML file.
+	* export to XML.xlsm: A workbook that contains a macro that 
+	  exports worksheet data to an XML file.
+	* file functions.xlsm: A workbook that contains the FileExists 
+	  and PathExists functions.
+	* file information.xlsm: A workbook that contains a macro that 
+	  creates a list of files and extended file information.
+	* \filter text file: A directory that contains files used to 
+	  import selected information from a text file.
+	* recursive file list.xlsm: A workbook that contains a macro 
+	  that creates a list of files contained in a directory, 
+	  including all subdirectories.
+	* show drive info.xlsm: A workbook that contains a macro that 
+	  displays information about all disk drives.
+	* \simple ADO 1: A directory that contains an example of using 
+	  ADO to query an Access file.
+	* \simple ADO 2: A directory that contains an example of using 
+	  ADO to query a CSV text file.
+	* unzip a file.xlsm: A workbook that contains a macro that 
+	  unzips a file.
+	* zip files.xlsm: A workbook that contains a macro that zips 
+	  files.
+Chapter 28
+	* add 100 buttons.xlsm: A workbook that contains a macro that 
+	  adds 100 CommandButton controls and code to a UserForm at 
+	  design time.
+	* add button and code.xlsm: A workbook that contains both a 
+	  macro that adds a button to a worksheet and VBA code that is 
+	  executed when the button is clicked.
+	* create userform on the fly.xlsm: A workbook that contains a 
+	  macro that creates a UserForm.
+	* getoption function.xlsm: A workbook that contains a function 
+	  that creates a UserForm (with OptionButton controls) on the 
+	  fly and returns a value that corresponds to the user's choice.
+	* list all procedures.xlsm: A workbook that contains a macro 
+	  that lists all VBA procedures in a workbook.
+	* list VB components.xlsm: A workbook that contains a macro that 
+	  lists all VB components in a workbook.
+	* \update user workbook: A directory that contains a workbook 
+	  that demonstrates a macro that replaces a VBA module with a 
+	  new module.
+Chapter 29
+	* csv class.xlsm: A workbook that makes it easy to import and 
+	  export a CSV file.
+	* keyboard class.xlsm: A workbook that contains a class module 
+	  that defines a NumLock, a CapsLock, and a ScrollLock class.
+Chapter 30
+	* chart colors.xlsm: A workbook that contains macros that work 
+	  with chart colors.
+	* chart to grayscale picture.xlsm: A workbook that contains a 
+	  macro that creates a grayscale image from a chart.
+	* color conversion functions.xlsm: A workbook that contains 
+	  functions that convert between various color systems.
+	* document theme demo.xlsx: A workbook that contains various 
+	  elements that demonstrate the effects of applying a different 
+	  theme.
+	* generate theme colors.xlsm: A workbook that contains a macro 
+	  that demonstrates theme colors.
+	* rgb color demo.xlsm: A workbook that contains an interactive 
+	  demonstration of the RGB color system.
+	* \shape object colors: A directory that contains a workbook 
+	  with macros that work with shapes.
+	* tintandshade demo.xlsm: A workbook that demonstrates how the 
+	  TintAndShade property works.
+
+
+========================================================================
+Troubleshooting
+------------------------------------------------------------------------
+
+If you have difficulty installing or using any of the materials on the
+companion CD, try the following solutions:
+
+* Turn off any antivirus software that you may have running.
+Installers sometimes mimic virus activity and can make your
+computer incorrectly believe that it is being infected by a
+virus. (Be sure to turn the antivirus software back on later.)
+
+* Close all running programs. The more programs you're running,
+the less memory is available to other programs. Installers also
+typically update files and programs; if you keep other programs
+running, installation may not work properly.
+
+Customer Care
+
+If you have trouble with the CD-ROM, please call the Wiley Product
+Technical Support phone number at (800) 762-2974. Outside the United
+States, call 1(317) 572-3994. You can also contact Wiley Product
+Technical Support at http://support.wiley.com. John Wiley & Sons will
+provide technical support only for installation and other general
+quality control items. For technical support on the applications
+themselves, consult the program's vendor or author.
+
+To place additional orders or to request information about other Wiley
+products, please call (877) 762-2974.
+
